@@ -1,0 +1,40 @@
+.container-fluid {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h1 {
+    color: gray;
+}
+
+h2 {
+    color: gray;
+}
+
+#black-crystal-header {
+    color: black;
+}
+
+#purple-crystal-header {
+    color: purple;
+}
+
+#red-crystal-header {
+    color: red;
+}
+
+#green-crystal-header {
+    color: green;
+}
+
+p {
+    line-height: 80%;
+}
+.crystal-image {
+    height: 300px;
+    width: 300px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+
+    <!-- Linking style sheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Crystals Collector Game</h1>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Instructions</h1>
+                <p>A random number of crystal power points is choosen to start the game.</p>
+                <p>Select a crystal to see how many crystal power points you earn.</p>
+                <p>You win if you total crystal power points is equal to your random number.</p>
+                <p>You lose if your get too much crystal power points.</p>
+                <p>Dem crystal be crazy and magical so you never know how much crystal power they give you!</p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Crystal Power Needed</h2>
+                <p id="crystal-needed">0</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Crystal Power Gained</h2>
+                <p id="crystal-gained">0</p>
+            </div>
+            <div class="col-md-2">
+                <h2>Wins</h2>
+                <p id="wins">0</p>
+            </div>
+            <div class="col-md-2">
+                <h2>Losses</h2>
+                <p id="losses">0</p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-3">
+                <h3 id="black-crystal-header">Black Crystal</h3>
+                <img class="crystal-image" src="assets/images/black_crystal.png" height= alt="Black Crystal">
+            </div>
+            <div class="col-md-3">
+                <h3 id="purple-crystal-header">Purple Crystal</h3>
+                <img class="crystal-image" src="assets/images/purple_crystal.png" height= alt="Purple Crystal">
+            </div>
+            <div class="col-md-3">
+                <h3 id="red-crystal-header">Red Crystal</h3>
+                <img class="crystal-image" src="assets/images/red_crystal.png" height= alt="Red Crystal">
+            </div>
+            <div class="col-md-3">
+                <h3 id="green-crystal-header">Green Crystal</h3>
+                <img class="crystal-image" src="assets/images/green_crystal.png" height= alt="Green Crystal">
+            </div>
+        </div>  
+    </div>
+
+    
+
+    
+
+    <!-- Linking javascript -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script type="text/jquery" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</body>
+</html>
