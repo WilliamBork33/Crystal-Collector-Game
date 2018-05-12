@@ -4,7 +4,7 @@
 
 .row {
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgb(229, 199, 143);
 }
 
 h1 {
@@ -28,11 +28,12 @@ h2 {
 }
 
 #green-crystal-header {
-    color: green;
+    color: #12E09C;
 }
 
 p {
     line-height: 80%;
+    color: white;
 }
 .crystal-image {
     height: 300px;
