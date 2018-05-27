@@ -1,4 +1,4 @@
-# Crystal Collector Game.
+# Crystal Collector Game
 
 - A game inspired by Blackjack. Try to match a number without going over!
 
